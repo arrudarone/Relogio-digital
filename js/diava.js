@@ -4,7 +4,8 @@ const horas = document.getElementById('horas')
 const minutos = document.getElementById('minutos')
 const segundos = document.getElementById('segundos')
 
-const relogio = setInterval(function time() {
+
+const clock = setInterval(function time() {
     let hoje = new Date();
     let hours = hoje.getHours();
     let minutes = hoje.getMinutes();
