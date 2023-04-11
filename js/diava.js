@@ -23,5 +23,22 @@ const clock = setInterval(function time() {
 
 
 })
+function msg() {
+
+    let ms = document.getElementById('txt')
+    let agora = new Date().getHours();
+
+    if( agora < 12 ){
+
+        ms.innerHTML = 'Bom dia !'
+
+    }else if(agora < 18) {
+        ms.innerHTML = 'Boa tarde !'
+
+    }else if(agora < 23){
+        ms.innerHTML = 'Boa noite !'
+    }
+
+}
 
 

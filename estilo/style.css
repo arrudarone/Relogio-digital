@@ -1,29 +1,39 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+/*font-family: 'Lily Script One', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/*font-family: 'Lobster', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+/*font-family: 'Abril Fatface', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/*font-family: 'Press Start 2P', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+/*font-family: 'Gemunu Libre', sans-serif;*/
+
+
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-/*font-family: 'Lobster', cursive;*/
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-/*font-family: 'Abril Fatface', cursive;*/
-
 body{
     background-image: linear-gradient(94deg, rgb(59, 194, 138), rgb(34, 68, 100));
     height: 100vh;
+    
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     
 }
 .relogio{
+    
     display: flex;
     align-items: center;
     justify-content:space-around;
     height: 170px;
-    width: 510px;
+    width: 490px;
     background: transparent;
     border-radius: 5px;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.514);
@@ -32,10 +42,10 @@ body{
 .relogio div{
     display: flex;
     flex-direction: column;
-    height: 110px;
+    height: 140px;
     background-color: black;
     color:white ;
-    width: 90px;
+    width: 140px;
     border-radius: 8px;
     align-items: center;
     justify-content: center;
@@ -45,8 +55,35 @@ body{
 }
 .relogio span{
     font-weight: bolder;
-    font-size: 33px;
+    font-size: 55px;
+    font-family: 'Gemunu Libre', sans-serif;
+    
 }
 .relogio span.tempo{
-    font-size: 11px;
+    font-size: 20px;
+}
+.titulo{
+    display: block;
+    margin-top:-240px;
+    margin-bottom: 80px;
+    width: 300px;
+    height: 110px;
+    background-color:transparent;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.384);
+    border: 2px solid rgba(255, 255, 255, 0.219);
+    border-radius: 40px;
+    display: flex;
+    
+}
+.titulo-txt{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 3em;
+    font-family: 'Lily Script One', cursive;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    
+
 }
