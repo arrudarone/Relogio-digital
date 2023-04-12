@@ -43,8 +43,9 @@ body{
     display: flex;
     flex-direction: column;
     height: 140px;
-    background-color: black;
-    color:white ;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0) ;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.61);
     width: 120px;
     border-radius: 8px;
     align-items: center;
